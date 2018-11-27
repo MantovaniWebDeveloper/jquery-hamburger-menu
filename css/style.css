@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  height: 70px;
+}
+#wrapLogo {
+  width: 30%;
+  background-color: yellow;
+}
+#wrapMenu {
+  width: 70%;
+  background-color: red;
+}
