@@ -33,3 +33,9 @@ buttonResponsiveClose.click(function(){
 buttonResponsiveClose.click(function(){
   buttonResponsiveClose.addClass('btnClose');
 });
+buttonResponsiveClose.click(function(){
+  nav.removeClass('menuNavHamuberger');
+});
+buttonResponsiveClose.click(function(){
+  nav.addClass('menuNav');
+});
