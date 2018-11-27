@@ -19,11 +19,14 @@ header {
   max-width: 100%;
   height: 40px;
 }
-#wrapMenu {
+.wrapMenu {
   width: 60%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+.wrapMenuResponsive {
+  display: block
 }
 #menuNav {
  display: flex;
@@ -44,5 +47,12 @@ header {
 @media screen and (max-width: 1000px) {
   #menuNav {
     display: none;
+  }
+  #btnMR {
+    display: block;
+    font-size: 30px;
+    border: 0;
+    padding-right: 30px;
+    cursor: pointer;
   }
 }
