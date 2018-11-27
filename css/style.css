@@ -28,39 +28,61 @@ header {
 .apriMenu {
   display: flex;
   flex-direction: column;
-  background-color: red;
+  background-color: #2B3F58;
   position: absolute;
   top:0;
   left: 0;
   width: 100vW;
   height: 100vh;
-  z-index: 0;
 }
 .menuNav {
  display: flex;
 }
 .menuNavHamuberger {
-display: flex;
-flex-direction: column;
-align-items: space-around;
-height: 100vh;
-justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: space-around;
+  height: 100vh;
+  padding-left: 15px;
 }
 .menuNav li {
   list-style-type: none;
   padding-left: 30px;
   padding-right: 30px;
 }
-#menuNav li a{
+.menuNav li a{
  text-decoration: none;
  color: grey;
+}
+.menuNavHamuberger li {
+  list-style-type: none;
+}
+.menuNavHamuberger li a {
+  color: #fff;
+  font-size: 27px;
 }
 #btnMR {
   display: none;
 }
+.btnClose {
+  display: none;
+}
+.btnCloseOpen {
+  color: white;
+  font-size: 40px;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 20px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
 /***MEDIA QUERY *****/
 @media screen and (max-width: 1000px) {
-  #menuNav {
+  .menuNav {
     display: none;
   }
   #btnMR {
